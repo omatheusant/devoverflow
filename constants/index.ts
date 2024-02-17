@@ -6,6 +6,69 @@ export const themes = [
   { value: "system", label: "System", icon: "/assets/icons/computer.svg" },
 ];
 
+type TopQuestion = {
+  _id: number;
+  title: string;
+};
+
+export const topQuestions: TopQuestion[] = [
+  {
+    title:
+      "Best practices for data fetching in a Next.js application with Server-Side Rendering (SSR)?",
+    _id: 2,
+  },
+  {
+    _id: 2,
+    title: "Is it only me or the font is bolder than necessary?",
+  },
+  {
+    _id: 2,
+    title: "Can I get the course for free?",
+  },
+  {
+    _id: 2,
+    title: "Redux Toolkit Not Updating State as Expected",
+  },
+  {
+    _id: 2,
+    title: "Async/Await Function Not Handling Errors Properly",
+  },
+];
+
+type TopTag = {
+  _id: number;
+  name: string;
+  totalQuestions: number;
+};
+
+export const topTags: TopTag[] = [
+  {
+    _id: 31,
+    name: "Nextjs",
+    totalQuestions: 5,
+  },
+  {
+    _id: 20,
+    name: "Test",
+    totalQuestions: 5,
+  },
+  {
+    _id: 14,
+    name: "React",
+    totalQuestions: 5,
+  },
+  {
+    _id: 7,
+    name: "Javascript",
+    totalQuestions: 5,
+  },
+  {
+    _id: 2,
+    name: "Git",
+    totalQuestions: 5,
+  },
+];
+
 export const sidebarLinks: SidebarLink[] = [
   {
     imgURL: "/assets/icons/home.svg",
