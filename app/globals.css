@@ -18,6 +18,10 @@ body {
   .flex-start {
     @apply flex justify-start items-center;
   }
+
+  .no-ring {
+    @apply outline-none ring-0 ring-offset-0 focus:ring-0 focus:ring-offset-0 focus-visible:ring-offset-0 !important;
+  }
   .card-wrapper {
     @apply bg-light-900 dark:dark-gradient shadow-light-100 dark:bg-light-900;
   }
