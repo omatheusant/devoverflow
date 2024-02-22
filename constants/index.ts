@@ -36,34 +36,34 @@ export const topQuestions: TopQuestion[] = [
 ];
 
 type TopTag = {
-  _id: number;
+  _id: string;
   name: string;
   totalQuestions: number;
 };
 
 export const topTags: TopTag[] = [
   {
-    _id: 31,
+    _id: "1",
     name: "Nextjs",
     totalQuestions: 5,
   },
   {
-    _id: 20,
+    _id: "0",
     name: "Test",
     totalQuestions: 5,
   },
   {
-    _id: 14,
+    _id: "4",
     name: "React",
     totalQuestions: 5,
   },
   {
-    _id: 7,
+    _id: "7",
     name: "Javascript",
     totalQuestions: 5,
   },
   {
-    _id: 2,
+    _id: "2",
     name: "Git",
     totalQuestions: 5,
   },
